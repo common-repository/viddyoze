@@ -1,0 +1,152 @@
+/* menu */
+.toplevel_page_viddyoze-options .wp-menu-image img, #toplevel_page_viddyoze-options .wp-menu-image img {
+    width: 18px;
+    height: auto;
+    padding-top: 7px;
+}
+
+.viddyoze_welcome_wrapper {
+    background: url("../welcome-page-hero-dots.png");
+    background-size: cover;
+}
+
+.viddyoze_welcome_wrapper .viddyoze_welcome_cols {
+    display: flex;
+}
+
+.viddyoze_welcome_wrapper .viddyoze_welcome_cols .viddyoze_welcome_column {
+    flex-direction: column;
+    width: 50%;
+    padding: 50px;
+}
+
+.about_viddyoze_image video {
+    max-width: 100%;
+    height: auto;
+}
+
+.viddyoze_welcome_wrapper .about_viddyoze svg {
+    color: #050a24 !important;
+}
+
+.viddyoze_welcome_wrapper .about_viddyoze h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.viddyoze_welcome_wrapper .about_viddyoze h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.viddyoze_welcome_wrapper .about_viddyoze p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.viddyoze_welcome_wrapper .about_viddyoze ul {
+    margin: 20px;
+    font-size: 16px;
+    list-style: circle;
+}
+
+.viddyoze_welcome_wrapper .about_viddyoze ul li {
+
+}
+
+.viddyoze_welcome_wrapper .about_viddyoze a.viddyoze_link {
+    /*color: #3d00e9;*/
+    /*text-decoration: underline;*/
+}
+
+.viddyoze_welcome_wrapper .about_viddyoze .viddyoze_button {
+    background: #3d00e9;
+    box-shadow: 0 0 0 0 rgb(34 36 38 / 15%) inset;
+    color: #fff;
+    text-shadow: none;
+    border-radius: 100px!important;
+    font-size: 16px!important;
+    font-weight: 500!important;
+    padding: 8px 18px!important;
+    line-height: 1;
+    min-width: 190px;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+}
+
+.viddyoze-settings {
+
+}
+
+.viddyoze-settings p {
+    margin-bottom: 20px;
+}
+
+.viddyoze-settings ul {
+    margin: 20px;
+    list-style: circle;
+}
+
+.viddyoze-settings ul li {
+    margin-bottom: 10px;
+}
+
+.viddyoze-settings a {
+    /*color: #3d00e9;*/
+}
+
+@media (max-width: 1280px) {
+    .viddyoze_welcome_wrapper .about_viddyoze h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .viddyoze_welcome_wrapper .about_viddyoze h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .viddyoze_welcome_wrapper .about_viddyoze p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .viddyoze_welcome_wrapper .about_viddyoze ul {
+        margin: 15px;
+        font-size: 18px;
+        list-style: circle;
+    }
+
+    .viddyoze_welcome_wrapper .viddyoze_welcome_cols {
+        display: block;
+    }
+
+    .viddyoze_welcome_wrapper .viddyoze_welcome_cols .viddyoze_welcome_column {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .viddyoze_welcome_wrapper .about_viddyoze h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .viddyoze_welcome_wrapper .about_viddyoze h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .viddyoze_welcome_wrapper .about_viddyoze p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .viddyoze_welcome_wrapper .about_viddyoze ul {
+        margin: 15px;
+        font-size: 15px;
+        list-style: circle;
+    }
+}
